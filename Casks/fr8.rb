@@ -3,7 +3,7 @@ cask "fr8" do
   name "fr8"
   desc "Manage git worktrees as isolated dev workspaces"
   homepage "https://github.com/protocollar/fr8"
-  version "0.0.1"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fr8" do
   on_macos do
     on_intel do
       url "https://github.com/protocollar/fr8/releases/download/v#{version}/fr8_#{version}_darwin_amd64.tar.gz"
-      sha256 "8d288b3f166c2e08213db7829c0db4ab655364dfd26de14c6dce99e22ec34b97"
+      sha256 "af2b42d9aa1ca0bc2d28e50e07e84e9f30541b1df90d264bdb5da8c3137ee2a0"
     end
     on_arm do
       url "https://github.com/protocollar/fr8/releases/download/v#{version}/fr8_#{version}_darwin_arm64.tar.gz"
-      sha256 "156a7fc088261a3e94021a640f18c6bf7214b21debf0679c78d88324869547cd"
+      sha256 "61702d56457026649f68a1fd5b2eada3b1308d508188d252552e4719dca3ddba"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/protocollar/fr8/releases/download/v#{version}/fr8_#{version}_linux_amd64.tar.gz"
-      sha256 "c75e7f56cd723959b9282a2d10ac8bc8f5abaff710bcc721e4cc4051a288044e"
+      sha256 "6ae73596dd52b6e173f8bb0a867642d20ecea6903a0b40d39c3c134455aaf141"
     end
     on_arm do
       url "https://github.com/protocollar/fr8/releases/download/v#{version}/fr8_#{version}_linux_arm64.tar.gz"
-      sha256 "275c39b6e213b97f52da32874fd098fab6bbf478b3702cef8f390fbd49db0009"
+      sha256 "729b57a29fd5acb02e9f399bebe766cec95d7c29afff0cfa42bef6bb487599c0"
     end
   end
 
